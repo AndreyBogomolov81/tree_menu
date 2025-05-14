@@ -25,7 +25,7 @@ def get_sub_menu(request, path):
     '''
 
     # проверка наличия элемента меню по динамической части пути url
-    if not  MenuItem.objects.filter(url__contains=path):
+    if not  MenuItem.objects.filter(url__contains=path).exists():
         raise Http404
 
     return render(
