@@ -1,0 +1,13 @@
+{% load app_tags %}
+<ul>
+    {% for menu_item in menu_items %}
+    <li>
+        <a href="{{menu_item.url}}">{{menu_item.title}}</a>
+        {% if items_of_path.0 == menu_item.slug %}
+            {% get_new_items_of_path items_of_path as temp%}
+            <!--Рекурсивно вызываем шаблон пока список не будет пуст-->
+            {% include "app/menu/includes/main_menu.html" with menu_items=menu_item.children.all items_of_path=temp %}
+        {% endif %}  
+    </li>
+    {% endfor %}
+</ul>

@@ -1,0 +1,520 @@
+[
+  {
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+      "action_time": "2025-05-14T12:05:40.139Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "MenuItem(id=1, title=mainitem1)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+      "action_time": "2025-05-14T12:05:50.937Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "MenuItem(id=2, title=mainitem2)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+      "action_time": "2025-05-14T12:05:58.361Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "MenuItem(id=3, title=mainitem3)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+      "action_time": "2025-05-14T12:06:09.585Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "4",
+      "object_repr": "MenuItem(id=4, title=subitem1)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+      "action_time": "2025-05-14T12:06:23.648Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "5",
+      "object_repr": "MenuItem(id=5, title=subitem11)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+      "action_time": "2025-05-14T12:06:35.485Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "6",
+      "object_repr": "MenuItem(id=6, title=subitem2)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+      "action_time": "2025-05-14T12:06:46.646Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "7",
+      "object_repr": "MenuItem(id=7, title=subitem3)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+      "action_time": "2025-05-14T12:07:01.891Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "8",
+      "object_repr": "MenuItem(id=8, title=subitem31)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+      "name": "Can view log entry",
+      "content_type": 1,
+      "codename": "view_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+      "name": "Can view permission",
+      "content_type": 2,
+      "codename": "view_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+      "name": "Can add group",
+      "content_type": 3,
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+      "name": "Can change group",
+      "content_type": 3,
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+      "name": "Can delete group",
+      "content_type": 3,
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+      "name": "Can view group",
+      "content_type": 3,
+      "codename": "view_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+      "name": "Can add user",
+      "content_type": 4,
+      "codename": "add_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+      "name": "Can change user",
+      "content_type": 4,
+      "codename": "change_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+      "name": "Can delete user",
+      "content_type": 4,
+      "codename": "delete_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+      "name": "Can view user",
+      "content_type": 4,
+      "codename": "view_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+      "name": "Can add content type",
+      "content_type": 5,
+      "codename": "add_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+      "name": "Can change content type",
+      "content_type": 5,
+      "codename": "change_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": 5,
+      "codename": "delete_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+      "name": "Can view content type",
+      "content_type": 5,
+      "codename": "view_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+      "name": "Can add session",
+      "content_type": 6,
+      "codename": "add_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+      "name": "Can change session",
+      "content_type": 6,
+      "codename": "change_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+      "name": "Can delete session",
+      "content_type": 6,
+      "codename": "delete_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+      "name": "Can view session",
+      "content_type": 6,
+      "codename": "view_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+      "name": "Can add menu item",
+      "content_type": 7,
+      "codename": "add_menuitem"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+      "name": "Can change menu item",
+      "content_type": 7,
+      "codename": "change_menuitem"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+      "name": "Can delete menu item",
+      "content_type": 7,
+      "codename": "delete_menuitem"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+      "name": "Can view menu item",
+      "content_type": 7,
+      "codename": "view_menuitem"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$1000000$dJyEIIAVkZtEORSnyj4HGV$vg07kkyfE+R7y89DgOxqo2Swy+56aaPdLmviREPSW/o=",
+      "last_login": "2025-05-14T12:05:29.383Z",
+      "is_superuser": true,
+      "username": "admin",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2025-05-14T12:05:09.456Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+      "app_label": "admin",
+      "model": "logentry"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+      "app_label": "auth",
+      "model": "permission"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+      "app_label": "auth",
+      "model": "group"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+      "app_label": "auth",
+      "model": "user"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+      "app_label": "contenttypes",
+      "model": "contenttype"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+      "app_label": "sessions",
+      "model": "session"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+      "app_label": "app",
+      "model": "menuitem"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "5mq4w89ogcgeiksfoajhz46qpdy5mta0",
+    "fields": {
+      "session_data": ".eJxVjMsOwiAQRf-FtSFAh5dL934DGWCQqoGktCvjv2uTLnR7zzn3xQJuaw3boCXMmZ2ZZKffLWJ6UNtBvmO7dZ56W5c58l3hBx382jM9L4f7d1Bx1G8NkJ3HIkgUEiQVmULGWmtk9iJG42QBDUTgvURj0QlQUelpgqSFNJG9P-HON0Y:1uFArZ:4uQz3BzCJd55YogJhvopfqlcNUsJFw4Um20nHWlZYmU",
+      "expire_date": "2025-05-28T12:05:29.385Z"
+    }
+  },
+  {
+    "model": "app.menuitem",
+    "pk": 1,
+    "fields": {
+      "title": "mainitem1",
+      "slug": "mainitem1",
+      "url": "http://127.0.0.1:8000/main_menu/mainitem1",
+      "parent": null
+    }
+  },
+  {
+    "model": "app.menuitem",
+    "pk": 2,
+    "fields": {
+      "title": "mainitem2",
+      "slug": "mainitem2",
+      "url": "http://127.0.0.1:8000/main_menu/mainitem2",
+      "parent": null
+    }
+  },
+  {
+    "model": "app.menuitem",
+    "pk": 3,
+    "fields": {
+      "title": "mainitem3",
+      "slug": "mainitem3",
+      "url": "http://127.0.0.1:8000/main_menu/mainitem3",
+      "parent": null
+    }
+  },
+  {
+    "model": "app.menuitem",
+    "pk": 4,
+    "fields": {
+      "title": "subitem1",
+      "slug": "subitem1",
+      "url": "http://127.0.0.1:8000/main_menu/mainitem1/subitem1",
+      "parent": 1
+    }
+  },
+  {
+    "model": "app.menuitem",
+    "pk": 5,
+    "fields": {
+      "title": "subitem11",
+      "slug": "subitem11",
+      "url": "http://127.0.0.1:8000/main_menu/mainitem1/subitem1/subitem11",
+      "parent": 4
+    }
+  },
+  {
+    "model": "app.menuitem",
+    "pk": 6,
+    "fields": {
+      "title": "subitem2",
+      "slug": "subitem2",
+      "url": "http://127.0.0.1:8000/main_menu/mainitem2/subitem2",
+      "parent": 2
+    }
+  },
+  {
+    "model": "app.menuitem",
+    "pk": 7,
+    "fields": {
+      "title": "subitem3",
+      "slug": "subitem3",
+      "url": "http://127.0.0.1:8000/main_menu/mainitem3/subitem3",
+      "parent": 3
+    }
+  },
+  {
+    "model": "app.menuitem",
+    "pk": 8,
+    "fields": {
+      "title": "subitem31",
+      "slug": "subitem31",
+      "url": "http://127.0.0.1:8000/main_menu/mainitem3/subitem3/subitem31",
+      "parent": 7
+    }
+  }
+]
